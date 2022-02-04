@@ -16,6 +16,8 @@
 		81898DB7279FBCED0034721C /* CalendarTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81898DB6279FBCED0034721C /* CalendarTestTests.swift */; };
 		81898DC1279FBCED0034721C /* CalendarTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81898DC0279FBCED0034721C /* CalendarTestUITests.swift */; };
 		81898DC3279FBCED0034721C /* CalendarTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81898DC2279FBCED0034721C /* CalendarTestUITestsLaunchTests.swift */; };
+		81898DD0279FCD0C0034721C /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81898DCF279FCD0C0034721C /* CalendarCell.swift */; };
+		81898DD2279FDC260034721C /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81898DD1279FDC260034721C /* CalendarHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		81898DBC279FBCED0034721C /* CalendarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81898DC0279FBCED0034721C /* CalendarTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTestUITests.swift; sourceTree = "<group>"; };
 		81898DC2279FBCED0034721C /* CalendarTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81898DCF279FCD0C0034721C /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		81898DD1279FDC260034721C /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				81898DA1279FBCEA0034721C /* SceneDelegate.swift */,
 				81898DA3279FBCEA0034721C /* ViewController.swift */,
 				81898DA5279FBCEA0034721C /* Main.storyboard */,
+				81898DCF279FCD0C0034721C /* CalendarCell.swift */,
 				81898DA8279FBCED0034721C /* Assets.xcassets */,
 				81898DAA279FBCED0034721C /* LaunchScreen.storyboard */,
 				81898DAD279FBCED0034721C /* Info.plist */,
+				81898DD1279FDC260034721C /* CalendarHelper.swift */,
 			);
 			path = CalendarTest;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81898DD2279FDC260034721C /* CalendarHelper.swift in Sources */,
 				81898DA4279FBCEA0034721C /* ViewController.swift in Sources */,
 				81898DA0279FBCEA0034721C /* AppDelegate.swift in Sources */,
 				81898DA2279FBCEA0034721C /* SceneDelegate.swift in Sources */,
+				81898DD0279FCD0C0034721C /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +453,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,6 +482,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
